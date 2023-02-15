@@ -1,0 +1,16 @@
+.background{ 
+    background-image: url(./images/background.jpg);
+    height: 110vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow-y:scroll ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.background p {
+    font-size: 200px;
+}

@@ -1,0 +1,202 @@
+.background{
+    background-image: url(./images/background.jpg);
+    height: 110vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow-y:scroll ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: rgb(78, 78, 78);
+}
+
+.container{
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll ;
+    text-align: left;
+}
+.presentation{
+    -webkit-backdrop-filter: blur(150px);
+    backdrop-filter: blur(150px);
+    background-image: linear-gradient( rgba(255, 157, 0, 0.3),rgba(0, 0, 0, 0.3));
+    margin-top: 20px;
+    width: 300px;
+    border-radius:1rem ;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.presentation p{
+    text-align: left;
+    margin: 10px;
+    font-size: 10px;
+    color: rgb(238, 237, 237);
+    font-weight: 100;
+}
+.presentation img{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+.presentation h4{
+    display: none;
+}
+
+.proyect{
+    width: 300px;
+    -webkit-backdrop-filter: blur(150px);
+    backdrop-filter: blur(150px);
+    background-image: linear-gradient( rgba(68, 166, 223, 0.5),rgba(0, 0, 0, 0.3));
+    margin-top: 20px;
+    border-radius: 1rem;
+    font-size: 20px;
+}
+.proyect p {
+    margin: 10px;
+    text-align: left;
+    color: rgb(238, 237, 237);
+    font-size: 10px;
+    font-weight: 100;
+}
+.proyect h4 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.C_S_DB{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.C_S_DB img {
+    display: none;
+}
+
+.attributors{
+    -webkit-backdrop-filter: blur(150px);
+    backdrop-filter: blur(150px);
+    background-image: linear-gradient( rgba(183, 56, 222, 0.5),rgba(0, 0, 0, 0.3));
+    width: 300px;
+    border-radius: 1rem;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.attributors h4{
+    font-size: 20px;
+}
+.links{
+    margin: 10px;
+    font-weight: 100;
+}
+@media (min-width:960px){
+    .container{
+        max-width: 80%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y:scroll ;
+        
+    }
+    .presentation{
+        -webkit-backdrop-filter: blur(150px);
+        backdrop-filter: blur(150px);
+        background-image: linear-gradient( rgba(255, 157, 0, 0.3),rgba(0, 0, 0, 0.3));
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        border-radius: 1rem;
+        position: relative;
+    }
+    .presentation p{
+        text-align: left;
+        margin: 30px;
+        width: 500px;
+        font-size: 20px;
+        color: rgb(238, 237, 237);
+        font-weight: 100;
+    }
+    .presentation img{
+        right: 30px;
+        width: 200px;
+        height: 300px;
+        margin: 30px;
+        border-radius: 1rem;
+        
+    }
+    .proyect{
+        width: 900px;
+        -webkit-backdrop-filter: blur(150px);
+        backdrop-filter: blur(150px);
+        /* background-color: rgba(0, 0, 0, 0.3); */
+        background-image: linear-gradient( rgba(68, 166, 223, 0.5),rgba(0, 0, 0, 0.3));
+        margin: 20px;
+        border-radius: 1rem;
+        font-size: 20px;
+    }
+    .proyect h4 {
+        font-size: 20px;
+        /* font-weight: 100; */
+    }
+    .proyect p {
+        margin: 30px;
+        text-align: left;
+        color: rgb(238, 237, 237);
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .C_S_DB{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .C_S_DB img {
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .attributors{
+        -webkit-backdrop-filter: blur(150px);
+        backdrop-filter: blur(150px);
+        /* background-color: rgba(0, 0, 0, 0.3); */
+        background-image: linear-gradient( rgba(183, 56, 222, 0.5),rgba(0, 0, 0, 0.3));
+        width: 900px;
+        margin: 20px;
+        border-radius: 1rem;
+        justify-content: center;
+        text-align: left;
+        font-size: 20px;
+
+    }
+    .links {
+        margin: 30px;
+        color: rgb(238, 237, 237);
+        font-weight: 100;
+    }
+    h4{
+        font-size: 30px;
+        text-align: center;
+    }
+}

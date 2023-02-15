@@ -1,0 +1,129 @@
+
+.dog{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* background-color: red; */
+     
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.dog_name{
+    font-size: 20px;
+}
+.img_dogs{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+.dog button{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:20px ;
+    background-color: black;
+    border-radius: 0.2rem;
+    font-size: 20px;
+}
+.dog button p {
+    margin-top: 15px;
+}
+.favoriteAdd_image_off{
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    width: 25px;
+    cursor:pointer
+}
+.favoriteAdd_image_none{
+    display: none;
+}
+.favoriteAdd_image_on{
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    width: 25px;
+    /* filter: invert(11%) sepia(69%) saturate(4250%) hue-rotate(273deg) brightness(101%) contrast(132%); */
+    filter: invert(55%) sepia(26%) saturate(5584%) hue-rotate(2deg) brightness(105%) contrast(98%);
+}
+.deleteFav_image_off{
+    display: none;
+}
+.deleteFav_image_on{
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    width: 20px;
+}
+
+
+@media (min-width:480px) and (max-width:960px) {
+    .dog{
+        width: 500px;
+    }
+    .dog_name{
+        font-size: 35px;
+    }
+    .img_dogs{
+        width: 400px;
+    }
+    .favoriteAdd_image_off{
+
+        width: 45px;
+    }
+    .favoriteAdd_image_on{
+        width: 45px;
+    }
+    .deleteFav_image_on{
+        width: 40px;
+    }
+
+    .dogWeight{
+        font-size: 20px;
+    }
+    .dogTempers{
+        font-size:20px ;
+    }
+    .dog button{
+        margin-top: 20px;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-bottom:20px ;
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width:961px){
+    .dog{
+        width: 400px;
+        display: grid;
+        grid-template-rows: auto 400px auto auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img_dogs{
+        
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 250px;
+        border-radius: 0.5rem;
+    }
+}
+
+

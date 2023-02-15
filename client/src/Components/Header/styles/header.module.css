@@ -1,0 +1,86 @@
+.navigation{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    
+} 
+.navigation button{
+    margin-top: 8px;
+    font-size: 15px;
+    padding: 9px;
+}
+.logo{
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-size: 25px;
+    
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+.icon_heart {
+    width: 45px;
+    top: 8px;
+}
+.icon_heart img{
+    max-width: 100%;
+    filter: invert(1);
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .navigation button{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:890px) {
+    .navigation button  {
+        font-size: 25px;
+    }
+    .logo p{
+        font-size: 35px;
+    }
+    .icon_heart{
+        width: 55px;
+    }
+}
+@media screen and (min-width:891px) and (max-width:959px) {
+    .navigation button  {
+        font-size: 35px;
+    }
+    .logo p{
+        font-size: 45px;
+    }
+}
+@media screen and (min-width:960px) {
+    .navigation{
+        flex-direction: row;
+    }
+    .logo{
+        margin-left:15px ;
+    }
+    .logo p{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .icon_heart {
+        cursor: pointer;
+        width: 45px;
+        top: 8px;
+    }
+    .icon_heart img{
+        max-width: 100%;
+        filter: invert(1);
+    }
+}

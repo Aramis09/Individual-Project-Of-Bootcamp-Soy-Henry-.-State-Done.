@@ -1,0 +1,46 @@
+.dogUploaded{
+    margin: 20px;
+    background-color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.image_dog{
+ width: 250px;
+}
+.name {
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.characteristics{
+    font-size:15px ;
+    text-align: left;
+    margin: 20px;
+}
+.icon_cross{
+    cursor: pointer;
+    width: 25px;
+    filter: invert();
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+@media (min-width:480px) and (max-width:768px) {
+    .name{
+        font-size: 35px;
+    }
+    .image_dog{
+        width: 400px;
+       }
+    .characteristics{
+        width: 400px;
+        align-self:center;
+        font-size: 25px;
+    }
+}
